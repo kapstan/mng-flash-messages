@@ -114,6 +114,9 @@ class MNGFlashMessages {
 
 						endforeach;
 					endforeach;
+
+					delete_option( 'wp_flash_messages' );
+					
 				endif;
 			endif;
 		endif;
